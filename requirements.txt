@@ -1,0 +1,13 @@
+Flask
+Flask-SocketIO
+Flask-WTF
+Flask-Login
+Flask-SQLAlchemy
+eventlet
+
+
+@socketio.on('connect')
+def connect():
+    print("Conectado!!!!!!!")
+@socketio.on('disconnect')
+def disconnect():
